@@ -1,0 +1,63 @@
+body,h1,h2,p,label,input,
+button{
+    
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Arial,sans-serif;
+    line-height:1.6;
+    max-height:100vh;
+    display:felx;
+    flex-direction:coloumn;
+}
+header{
+    background-color:#333;
+    color:#fff;
+    text-align:center;
+    padding:1rem;
+}
+main{
+    padding: 2rem;
+    text-align: center;
+}
+footer{
+    text-align:center;
+    padding:1rem 0;
+    background-color:black;
+    color:white;
+    margin-top:auto;
+}
+
+.signup-form{
+    max-width:300px;
+    margin: 0 auto;
+}
+label1{
+    display:block;
+    margin-bottom:5px;
+    font-family:squiggles;
+}
+input{
+    width:100%;
+    padding:8px;
+    margin-bottom:10px;
+    border:1px solid grey;
+    border:radius 3px; 
+    background-color:azure;
+}
+button{
+    display:inline-block;
+    padding:8px 20px;
+    background-color:#333;
+    color:#fff;
+    border:none;
+    border-radius:3px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:#555;
+}
+.loginbutton{
+    display:inlin
+}
